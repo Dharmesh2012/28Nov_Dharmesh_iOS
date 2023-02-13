@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="D_M4_Ass_10_12_iOs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="caf-n3-TW6">
+                                <rect key="frame" x="154" y="80" width="201" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Picker :-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jk9-0D-a5s">
+                                <rect key="frame" x="10" y="80" width="134" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ua3-gk-j85">
+                                <rect key="frame" x="20" y="164" width="335" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jk9-0D-a5s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="18c-eC-He9"/>
+                            <constraint firstItem="caf-n3-TW6" firstAttribute="leading" secondItem="jk9-0D-a5s" secondAttribute="trailing" constant="10" id="36x-dv-2zq"/>
+                            <constraint firstItem="jk9-0D-a5s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="4n2-oD-Yhw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ua3-gk-j85" secondAttribute="trailing" constant="20" id="9dk-YO-iHL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="caf-n3-TW6" secondAttribute="trailing" constant="20" id="H38-XM-G6c"/>
+                            <constraint firstItem="Ua3-gk-j85" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="J5w-SQ-tk6"/>
+                            <constraint firstItem="caf-n3-TW6" firstAttribute="centerY" secondItem="jk9-0D-a5s" secondAttribute="centerY" id="PhL-0S-k9x"/>
+                            <constraint firstItem="Ua3-gk-j85" firstAttribute="top" secondItem="caf-n3-TW6" secondAttribute="bottom" constant="50" id="Wv7-9m-pbb"/>
+                            <constraint firstItem="Ua3-gk-j85" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZDD-e8-xGg"/>
+                            <constraint firstItem="caf-n3-TW6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="dJx-g8-h7K"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblForShow" destination="Ua3-gk-j85" id="e72-c5-AYy"/>
+                        <outlet property="txtFieldDate" destination="caf-n3-TW6" id="Y4e-md-6OP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
