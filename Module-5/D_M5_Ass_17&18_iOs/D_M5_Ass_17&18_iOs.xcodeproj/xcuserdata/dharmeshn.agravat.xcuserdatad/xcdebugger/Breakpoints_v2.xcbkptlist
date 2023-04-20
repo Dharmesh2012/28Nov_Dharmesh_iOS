@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A386C0D-84CE-48B4-8714-8AC47C833116"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6328FA3-BFF6-4B0A-9D42-B6786678EBB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M5_Ass_17&amp;18_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "isValidEmail"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49A24905-8EC9-4EAD-BF49-A6B45571256E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M5_Ass_17&amp;18_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "isValidEmail"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "49A24905-8EC9-4EAD-BF49-A6B45571256E - 227049c2a9b4ae7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.isValidEmail.getter : Swift.Bool"
+                  moduleName = "D_M5_Ass_17&amp;18_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%205/D_M5_Ass_17&amp;18_iOs/D_M5_Ass_17&amp;18_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "49A24905-8EC9-4EAD-BF49-A6B45571256E - 227049c2a9b4aed9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.isValidEmail.getter : Swift.Bool"
+                  moduleName = "D_M5_Ass_17&amp;18_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%205/D_M5_Ass_17&amp;18_iOs/D_M5_Ass_17&amp;18_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
