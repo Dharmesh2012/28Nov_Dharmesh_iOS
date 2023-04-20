@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="D_M5_Ass_8_iOs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4wV-ca-Sh1">
+                                <rect key="frame" x="0.0" y="85" width="375" height="582"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="sLQ-cA-4gz"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MyL-hi-8cn"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand Mall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hm6-ht-kB8">
+                                <rect key="frame" x="3" y="5" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5mU-6k-cek">
+                                <rect key="frame" x="3" y="29" width="51" height="31"/>
+                            </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Search for products" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ydA-XB-e1P">
+                                <rect key="frame" x="107" y="5" width="265" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="vVs-0m-vRM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZH5-L3-wa3">
+                                <rect key="frame" x="279" y="15.5" width="45" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="mic" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dC-t9-eHq">
+                                <rect key="frame" x="309.5" y="15.5" width="55.5" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="camera" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZH5-L3-wa3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hm6-ht-kB8" secondAttribute="trailing" constant="8" symbolic="YES" id="2fq-ep-orw"/>
+                            <constraint firstItem="0dC-t9-eHq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hm6-ht-kB8" secondAttribute="trailing" constant="8" symbolic="YES" id="FmR-4B-c34"/>
+                            <constraint firstItem="0dC-t9-eHq" firstAttribute="centerY" secondItem="ydA-XB-e1P" secondAttribute="centerY" id="HlL-OA-tyJ"/>
+                            <constraint firstItem="4wV-ca-Sh1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ktd-Zo-ghw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4wV-ca-Sh1" secondAttribute="trailing" id="LEt-mU-921"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZH5-L3-wa3" secondAttribute="trailing" constant="51" id="OO2-a3-XL1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4wV-ca-Sh1" secondAttribute="bottom" id="SVT-pY-T2B"/>
+                            <constraint firstItem="Hm6-ht-kB8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="a1Q-1M-CpT"/>
+                            <constraint firstItem="ZH5-L3-wa3" firstAttribute="centerY" secondItem="ydA-XB-e1P" secondAttribute="centerY" id="a74-bR-aLa"/>
+                            <constraint firstItem="5mU-6k-cek" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="cfI-Rb-Qci"/>
+                            <constraint firstItem="Hm6-ht-kB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="ePD-iS-BLc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0dC-t9-eHq" secondAttribute="trailing" constant="10" id="gUP-xd-605"/>
+                            <constraint firstItem="ydA-XB-e1P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="guz-00-zjr"/>
+                            <constraint firstItem="4wV-ca-Sh1" firstAttribute="top" secondItem="5mU-6k-cek" secondAttribute="bottom" constant="25" id="jN3-bd-xnn"/>
+                            <constraint firstItem="5mU-6k-cek" firstAttribute="top" secondItem="Hm6-ht-kB8" secondAttribute="bottom" constant="3" id="mg4-uh-Euc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ydA-XB-e1P" secondAttribute="trailing" constant="3" id="puU-pB-urG"/>
+                            <constraint firstItem="ydA-XB-e1P" firstAttribute="leading" secondItem="Hm6-ht-kB8" secondAttribute="trailing" constant="23" id="zeb-iM-obb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblBrandMall" destination="Hm6-ht-kB8" id="OLa-sr-dng"/>
+                        <outlet property="myTbl" destination="4wV-ca-Sh1" id="D5m-Xx-Q7I"/>
+                        <outlet property="switch" destination="5mU-6k-cek" id="uus-4Z-QNG"/>
+                        <outlet property="txtFieldSearch" destination="ydA-XB-e1P" id="y8A-d1-Hsl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="-34.632683658170919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="93"/>
+        <image name="mic" catalog="system" width="110" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
