@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>States</key>
+	<array>
+		<string>Andhra Pradesh</string>
+		<string>Arunachal Pradesh</string>
+		<string>Assam</string>
+		<string>Bihar</string>
+		<string>Chhattisgarh</string>
+		<string>Goa</string>
+		<string>Gujarat</string>
+		<string>Haryana</string>
+		<string>Himachal Pradesh</string>
+		<string>Jharkhand</string>
+		<string>Karnataka</string>
+		<string>Kerala</string>
+		<string>Madhya Pradesh</string>
+		<string>Maharashtra</string>
+		<string>Manipur</string>
+		<string>Meghalaya</string>
+		<string>Mizoram</string>
+		<string>Nagaland</string>
+		<string>Odisha</string>
+		<string>Punjab</string>
+		<string>Rajasthan</string>
+	</array>
+	<key>Capitals</key>
+	<array>
+		<string>Amaravati</string>
+		<string>Itanagar</string>
+		<string>Dispur</string>
+		<string>Patna</string>
+		<string>Raipur</string>
+		<string>Panaji</string>
+		<string>Gandhinagar</string>
+		<string>Chandigarh</string>
+		<string>Shimla</string>
+		<string>Ranchi</string>
+		<string>Bengaluru</string>
+		<string>Thiruvananthapuram</string>
+		<string>Bhopal</string>
+		<string>Mumbai</string>
+		<string>Imphal</string>
+		<string>Shillong</string>
+		<string>Aizawl</string>
+		<string>Kohima</string>
+		<string>Bhubaneswar</string>
+		<string>Chandigarh</string>
+		<string>Jaipur</string>
+	</array>
+</dict>
+</plist>
