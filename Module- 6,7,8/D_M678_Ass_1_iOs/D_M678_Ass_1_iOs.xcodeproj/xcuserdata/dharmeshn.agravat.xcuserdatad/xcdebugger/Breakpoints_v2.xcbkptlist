@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F1754921-16CB-4372-98B9-7EB3055A1FAA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "487F07F4-6244-46BF-BC44-6673B3665DEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M678_Ass_1_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchingApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62718004-F4CC-4328-87F6-6B511C735D5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M678_Ass_1_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchingApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62718004-F4CC-4328-87F6-6B511C735D5F - 75b47a6f6daaf07d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1964">
+               </Location>
+               <Location
+                  uuid = "62718004-F4CC-4328-87F6-6B511C735D5F - 75b47a6f6daaf07d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD465D90-F619-45C7-B96C-269B1674F9BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M678_Ass_1_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchingApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD465D90-F619-45C7-B96C-269B1674F9BF - 9cce200f102f3646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "FD465D90-F619-45C7-B96C-269B1674F9BF - 9cce200f102f3625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "768">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE9D8352-CC1D-447F-9F09-E26F4AA53A18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "D_M678_Ass_1_iOs/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchingApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE9D8352-CC1D-447F-9F09-E26F4AA53A18 - 9cce200f102f3646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "FE9D8352-CC1D-447F-9F09-E26F4AA53A18 - 9cce200f102f3667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "FE9D8352-CC1D-447F-9F09-E26F4AA53A18 - 75b47a6f6daaf1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in D_M678_Ass_1_iOs.ViewController.fetchingApi() -&gt; ()"
+                  moduleName = "D_M678_Ass_1_iOs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharmeshn.agravat/Desktop/Dharmesh%20iOS/Assignments/Module%206,%207,%208/D_M678_Ass_1_iOs/D_M678_Ass_1_iOs/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
